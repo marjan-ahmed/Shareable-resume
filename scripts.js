@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       // Generate the unique URL
       const userName = formData.name.toLowerCase().replace(/\s+/g, "");
-      const uniqueUrl = `live_preview.html?username=${userName}`;
+      const uniqueUrl = `resume-viewer.html?username=${userName}`;
       localStorage.setItem(userName, JSON.stringify(formData)); // Save data
   
       // Update the shareable link

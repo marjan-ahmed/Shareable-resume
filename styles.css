@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background: linear-gradient(135deg, #2c3e50, #4bcffa);
+    background: linear-gradient(135deg, #7c7c7c, #313131);
     padding: 20px;
     margin: 0;
     color: #ffffff;
@@ -11,7 +11,7 @@ body {
   .container {
     max-width: 900px;
     margin: 0 auto;
-    background: #1e272e;
+    background: #272727;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
@@ -28,6 +28,8 @@ body {
     letter-spacing: 3px;
     font-weight: 700;
     background: -webkit-linear-gradient(45deg, #ffdd59, #ff4757);
+    font-weight: 900;
+    font-family: alata, sans-serif;
     -webkit-background-clip: text;
     color: transparent;
   }
@@ -41,7 +43,7 @@ body {
   fieldset {
     margin-bottom: 25px;
     padding: 25px;
-    border: 2px solid #00d2d3;
+    border: 2px solid #dcf116;
     border-radius: 12px;
     background-color: #485460;
   }
@@ -49,7 +51,7 @@ body {
   legend {
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ffdd59;
+    color: #ffffff;
   }
   
   label {
