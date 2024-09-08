@@ -1,37 +1,38 @@
-
+/* Global Styles */
 body {
-    font-family: "alata", roboto, Arial, sans-serif;
-    background: linear-gradient(135deg, #2c3e50, #8b5e3c); 
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4bcffa);
     padding: 20px;
     margin: 0;
-    color: #f0f0f0; 
+    color: #ffffff;
   }
   
-  
+  /* Container Styles */
   .container {
     max-width: 900px;
     margin: 0 auto;
-    background: #363636; 
+    background: #1e272e;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 0 30px rgba(155, 155, 155, 0.7);
-    border: 2px solid #8b5e3c; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    border: 2px solid #00d2d3;
   }
   
-  
-  h1, h2 {
+  /* Header Styles */
+  h1,
+  h2 {
     text-align: center;
     margin-bottom: 30px;
-    color: #f0f0f0; 
+    color: #f7f1e3;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
-    background: -webkit-linear-gradient(45deg, #ffdd59, #8b5e3c); 
+    background: -webkit-linear-gradient(45deg, #ffdd59, #ff4757);
     -webkit-background-clip: text;
     color: transparent;
   }
   
-  
+  /* Form Styles */
   form {
     display: flex;
     flex-direction: column;
@@ -40,47 +41,46 @@ body {
   fieldset {
     margin-bottom: 25px;
     padding: 25px;
-    border: 2px solid #8b5e3c; 
+    border: 2px solid #00d2d3;
     border-radius: 12px;
-    background-color: #2c3e50; 
+    background-color: #485460;
   }
   
   legend {
     font-weight: bold;
     font-size: 1.3rem;
-    color: #ffdd59; 
+    color: #ffdd59;
   }
   
   label {
     display: block;
     margin-top: 15px;
     font-weight: bold;
-    color: #ffdd59; 
+    color: #ffdd59;
   }
   
   input {
     margin-top: 10px;
     padding: 12px;
-    border: 2px solid #8b5e3c; 
+    border: 2px solid #00d2d3;
     border-radius: 8px;
     width: calc(100% - 24px);
     box-sizing: border-box;
-    background-color: #1e272e; 
-    color: #f0f0f0; 
+    background-color: #2f3542;
+    color: #ffffff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
   }
   
   input:focus {
-    border-color: #ffdd59; 
-    box-shadow: 0 0 8px #ffdd59; 
+    border-color: #ffdd59;
+    box-shadow: 0 0 8px #ffdd59;
     outline: none;
   }
   
   button {
     padding: 15px;
-    width: 30%;
-    background-color: #8b5e3c; 
-    color: #f0f0f0; 
+    background-color: #ff4757;
+    color: #ffffff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -91,27 +91,27 @@ body {
   }
   
   button:hover {
-    background-color: #a67e5e; 
+    background-color: #ff6b81;
     transform: scale(1.05);
   }
   
-  
+  /* Resume Styles */
   #resume {
     margin-top: 30px;
   }
   
   #resume-content {
-    background-color: #2c3e50; 
+    background-color: #57606f;
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid #ffdd59; 
-    color: #f0f0f0; 
-    box-shadow: 0 0 15px rgba(255, 221, 89, 0.6); 
+    border: 2px solid #ffdd59;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 221, 89, 0.6);
   }
   
   #resume-content h3 {
     margin-top: 0;
-    color: #ffdd59; 
+    color: #ffdd59;
   }
   
   #resume-content p,
@@ -122,10 +122,10 @@ body {
   ul {
     list-style-type: disc;
     padding-left: 25px;
-    color: #f0f0f0; 
+    color: #ffffff;
   }
   
-  
+  /* Share Section Styles */
   #share-section {
     margin-top: 40px;
     text-align: center;
@@ -134,14 +134,14 @@ body {
   #shareable-link {
     display: block;
     margin: 15px 0;
-    color: #8b5e3c; 
+    color: #00d2d3;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
   }
   
   #shareable-link:hover {
-    color: #ffdd59; 
+    color: #ffdd59;
     text-decoration: underline;
   }
   
@@ -150,8 +150,8 @@ body {
     display: inline-block;
     margin: 10px;
     padding: 12px 25px;
-    background-color: #2c3e50; 
-    color: #f0f0f0; 
+    background-color: #1e90ff;
+    color: #ffffff;
     border-radius: 10px;
     font-weight: bold;
     font-size: 1.1rem;
@@ -161,25 +161,27 @@ body {
   
   #copy-link-btn:hover,
   #download-btn:hover {
-    background-color: #8b5e3c; 
-    box-shadow: 0 0 10px #ffdd59; 
-    border-color: #ffdd59; 
+    background-color: #00a8ff;
+    box-shadow: 0 0 10px #00d2d3;
+    border-color: #00d2d3;
   }
   
-  
+  /* Responsive Styles */
   @media only screen and (max-width: 768px) {
     .container {
       padding: 30px;
       max-width: 100%;
     }
   
-    h1, h2 {
+    h1,
+    h2 {
       font-size: 1.8rem;
       margin-bottom: 20px;
       letter-spacing: 2px;
     }
   
-    form, fieldset {
+    form,
+    fieldset {
       padding: 20px;
     }
   
@@ -187,7 +189,8 @@ body {
       font-size: 1.2rem;
     }
   
-    input, button {
+    input,
+    button {
       font-size: 1rem;
       padding: 10px;
     }
@@ -198,12 +201,14 @@ body {
   }
   
   @media only screen and (max-width: 480px) {
-    h1, h2 {
+    h1,
+    h2 {
       font-size: 1.5rem;
       letter-spacing: 1px;
     }
   
-    input, button {
+    input,
+    button {
       font-size: 0.9rem;
       padding: 8px;
     }
@@ -212,4 +217,3 @@ body {
       padding: 20px;
     }
   }
-  
